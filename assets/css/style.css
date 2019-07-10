@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://static.collectui.com/shots/3258249/90-s-pattern-large);
+    background-repeat: repeat;
+}
+
+#timer {display: none}
+#questions {display: none}
+
+.welcomeContainer{
+    margin: auto;
+    text-align: center;
+    font-size: 40px; 
+    border: 4px solid red; 
+    /* height: 600px; */
+    width: 800px;
+    color: white; 
+    background-color: darksalmon;
+    height: auto;
+}
+#start-btn{
+    background-color: white;
+    border: none;
+    
+    padding: 25px 65px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 26px;
+    margin: 4px 2px;
+    
+}
+#questionsAndTimer{
+    text-align: center;
+    /* display: inline-block; */
+}
+#radio{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    font-size: 5px;
+    vertical-align: middle; 
+}
+p{
+    font-size: 30px;
+}
+label{
+    font-size: 25px;
+    vertical-align: middle;
+}
